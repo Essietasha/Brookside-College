@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+    list-style: 1.5px; 
+}
+
+.navbar {
+    z-index: 100;
+}
+
+.navarrows {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(246, 242, 242);
+    font-size: 12px;
+}
+
+.navarrows ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 20px;
+    gap: 20px;
+}
+.navarrows a{
+    text-decoration: none;
+    color: rgb(145, 5, 5);
+}
+
+.navcont {
+    height: 50px;
+    width: 40%;
+    margin-left: 200px;
+}
+
+.navarrowflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.academicsimg {
+    height: 220px;
+    width: 100%;
+}
+
+.academicspage {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(246, 242, 242);
+}
+
+.academicscont {
+    line-height: 1.8;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.firstbox {
+    padding-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.firstbox h1 {
+    color: rgb(148, 6, 6);
+    font-size: 30px;
+}
+
+.firstbox p {
+    opacity: 95%;
+}
+
+.secondbox {
+    margin-right: 80px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.secondbox .sap {
+    display: inline-block;
+    /* margin-top: 5px; */
+    padding: 15px 57.5px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(148, 6, 6);
+    border-radius: 10px
+}
+
+.sap:hover{
+    background-color: rgb(84, 6, 6);
+}
+
+.secondbox hr{
+    height: 5px;
+    background-color: rgb(70, 63, 63);
+    border: none;
+    margin-top: -8px;
+}
+
+.toplinkscont {
+    background-color: rgb(238, 237, 237);
+}
+
+.toplinkscont h1 {
+    color:rgb(148, 6, 6);
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.toplinkscont a {
+    padding-left: 20px;
+    color:rgb(87, 87, 230);
+}
+
+.toplinkscont a:hover {
+    color: rgb(181, 181, 33);
+}
+
+.courses {
+   background-color: rgb(246, 242, 242);
+   padding: 30px 100px;
+}
+.courses h1 {
+    color:rgb(148, 6, 6) ;
+}
+
+.courseimgcont {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.courseimgcont h1 {
+    color: black;
+    font-weight:400;
+    font-size: 16px;
+    opacity: 70%;
+    text-align: center;
+}
+
+.courseimgcont .courseimgtext {
+    position: relative;
+
+}
+.courseimgcont .courseimgtext .action {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 20px;  
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.courseimgcont .courseimgtext .action a {
+    display: inline-block;
+    text-decoration: none;
+   color: white; 
+   border: 1px solid #fff;
+   padding: 5px 16px;
+}
+
+.courseimgcont .courseimgtext:hover .action {
+    opacity: 1;
+}

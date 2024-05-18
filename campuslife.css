@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.campustxt {
+    font-size: 20px;
+    padding-left: 500px;
+    font-weight: 600;
+}
+
+.langg {
+    margin-left: 1120px;
+}
+
+.campuscont {
+  
+    height: 250px;
+    width: 100%;
+    background-color: rgb(247, 251, 255);
+}
+
+.campusnote {
+    margin: 0px 100px;
+    padding-top: 50px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.campuscont hr{
+    height: 5px;
+    width: 70px;
+    background-color: #0f3470;
+    margin-left: 50%;
+    margin-top: 20px;
+}
+
+
+
+.campuspictures {
+    width: 100%;
+    background-color: rgb(247, 251, 255);
+}
+
+.campuspictures img{
+    height: 400px;
+    width: 350px;
+    background-size:cover;
+}
+
+.picsgrid {
+    padding: 0px 100px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.haction h1 {
+    font-weight: 400;
+    padding: 30px;
+}
+
+.picsgrid hr{
+    height: 5px;
+    width: 40px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin: 10px 150px;
+}
+
+.picsgrid .picscont{
+    position: relative;
+}
+
+.picsgrid a {
+    color: palevioletred;
+}
+.picsgrid a:hover {
+    color: #333;
+}
+
+.picsgrid .picscont .haction{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:#3b5b8f;
+    color: #fff;
+    opacity: 0;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+/* .picsgrid .picscont:hover .haction{
+    opacity: 1;
+} */
+
+.navbar {
+    z-index: 1000;
+}
+
+/* .picsgrid:nth-of-type(1) {
+    grid-column: 1/3;
+}
+.picsgrid:nth-of-type(1) {
+    grid-row: 2;
+} */
+
+.camplife {
+    /* width: 100%; */
+    /* height: 1100px; */
+    background-color: rgb(247, 251, 255);
+    padding: 80px 150px;
+    line-height: 1.8;
+}
+
+.camplife h1 {
+    font-weight:500;
+    color: rgb(143, 4, 4);
+    font-size: 28px;
+}
+.camplife p {
+    font-size: 18px;
+    opacity: 90%;
+}
+
+.camplife ul {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.mission h1{
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.mission h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.mission a {
+    color: #0C75A1;
+}
+.mission a:hover {
+    color: #05384e;
+}
+
+.sevencs {
+    margin: 30px 0px;
+}
+
+.sevencs h3{
+    color: #333;
+}
+
+.sevencs p {
+    margin-top: 10px;
+    line-height: 2.0;
+}
+
+.contactfooter {
+    background-color: #e3e0dd;
+    /* height: 500px;
+    width: 100%; */
+}
+
+.contactflex {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    /* margin-top: 70px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contactus h1 {
+    font-weight:300;
+    color: rgb(143, 4, 4);
+    font-size: 40px;
+}
+
+.contactus h2 {
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contactus p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.2;  
+}
+
+.contactus .tel {
+    color: #333;
+    font-weight: 500;
+}
+.contactus .mail {
+    color: #0C75A1;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contactus h3 {
+    color: rgb(143, 4, 4);
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 22px;
+}
+
+.contactus .searchbox{
+    height: 30px;
+    width: 220px;
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 3px
+}
+
+.contactus .searchbox:hover{
+    background-color: #fff;
+    border: 2px solid goldenrod;
+    border-radius: 0px;
+}
+
+.contactus .saerchbtn {
+    height: 35px;
+    width: 70px;
+    color: #fff;
+    background-color: #5D5913;
+    border: 1px solid #5D5913;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+}

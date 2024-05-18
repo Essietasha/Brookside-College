@@ -1,0 +1,53 @@
+.admissions {
+    height: 680px;
+    width: 100%;
+    background-color: beige;
+    display:flex;
+    /* height: 100vh; */
+    align-items: center;
+    padding: 100px;
+}
+.navbar {
+    z-index: 100;
+}
+
+.admissions h1{
+line-height: 1.2;
+   
+} 
+
+.admissions p {
+    margin: 20px 0 10px;
+    font-size: 1.1rem;  
+}
+
+
+
+.admission-img {
+    position: absolute;
+    top: 8;
+    right: 0;
+    height: 90%;
+}
+
+.admission-btn {
+    display: inline-block;
+    cursor: pointer;
+    background: #f60f20;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+}
+
+.admission-btn:hover {
+    transform: scale(0.8);
+    transition: 1s ease-out;
+}
+
+.admission-content {
+    position: relative;
+    z-index: 10;
+    max-width: 500px;
+}
+

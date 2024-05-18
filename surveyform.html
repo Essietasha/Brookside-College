@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="surveyform.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+
+<h1 id="title">Brookside Survey Form</h1>
+<p id="description">Thank you for taking your time in helping us improve Brookside's University</p>
+<div class="container">
+<form action="" method="post" id="survey-form">
+    <fieldset>
+        <label for="name" id="name-label">Enter your full name:<input type="text" id="name-label" name="name" required placeholder="Full Name"></label>
+        <label for="email" id="email-label">Enter your E-mail address: <input type="email" id="email" name="email-label" required placeholder="johnbrokes@gmail.com"> </label>
+        <label for="number" id="number-label">What is your age: <input type="number" id="number" name="number-label" required min="16" max="50" placeholder="16"></label>
+    </fieldset>
+        
+
+    <fieldset>
+        <legend class="gender">Gender
+            <label for="Male"><input type="radio" id="Male" name="male-female" value="Male" checked class="inline">Male</label>
+            <label for="Female"><input type="radio" id="Female" name="male-female" value="Female" class="inline">Female</label>
+        </legend>
+    </fieldset>
+
+    <fieldset class="levelcont">
+        <legend class="level">What Level are you?
+            <label for="Ustudent"> <input type="checkbox" name="Ustudent" id="Ustudent"  value="Undergraduate Student" class="dInline" >Undergraduate Student</label>
+            <label for="Pstudent"> <input type="checkbox" name="Pstudent" id="Pstudent"  value="Postgraduate Student" class="dInline">Postgraduate Student</label>
+            <label for="others"> <input type="checkbox" name="others" id="others"  value="Others" class="dInline">Others</label>
+        </legend>
+    </fieldset>
+
+    <fieldset>
+        <label for="dropdown">How did you hear about our website?</label>
+        <select name="dropdown" id="dropdown">
+            <option value="Self">Self</option>
+            <option value="Social Media">Social Media</option>
+            <option value="News">News</option>
+            <option value="Referral">Referral</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <label for="comment">Leave us a comment:</label>
+            <textarea name="comment" id="comment" cols="20" rows="8" placeholder="Leave a comment..."></textarea>
+        
+    </fieldset>
+
+    <input type="submit" id="submit" class="btn" value="Submit">
+
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5rem;
+    background-color: beige;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.comeasyouare {
+    height: 700px;
+    width: 100%;
+    background-image: url(images/study\ abroad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 70%; */
+}
+
+.come {
+    font-size: 70px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 480px;
+    padding-left: 60px;
+}
+
+.comebtn {
+    height: 50PX;
+    width: 100PX;
+    margin-left: 600px;
+}
+
+.comebtn button {
+    color: black;
+    border: 2px solid rgb(151, 14, 14);
+    width: 70px;
+    height: 30px;
+}
+
+.comebtn button:hover{
+    background-color: black;
+    color: wheat;
+}
+
+.openminded {
+    background-image: url(images/studyabroadd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+}
+
+.openminded .ent {
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+.life {
+   height: 270px;
+}
+
+.academ {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+    color: yellow;
+    border: 3px solid #fff;
+ }
+
+ .academbtn :hover{
+    background-color: white;
+    color:yellow;
+}
+
+.majorcont {
+    width: 100%;
+    height: 500px;
+}
+
+.applynow{
+    margin-top: 20px;
+}
+
+.apply {
+    background-color: #000000;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 15px;
+    border: 2px solid #9c0202;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+
+/* .break{
+    background-color: #fff;
+}
+
+.break hr {
+    height: 10px;
+    width: 850px;
+    background-color: #333;
+   margin-left: 200px;
+} */
+
+.resources {
+    width: 100%;
+    background-color: #fff;
+}
+
+.resources h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+}
+
+.resources a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.resources a:hover {
+    color: rgb(236, 236, 0);
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.resourcegrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    padding-bottom: 100px ;
+}
+
+.resources .faqs a{
+    padding-left: 20px;
+}
